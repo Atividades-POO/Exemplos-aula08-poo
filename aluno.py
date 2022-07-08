@@ -10,6 +10,8 @@ class Aluno(Pessoa): # herda de Pessoa (classe base) e tem seus atributos e meto
   def __init__(self, nome, idade, matricula, nota1: int, nota2: int): # construtor da classe Aluno (subclasse)
     super().__init__(nome, idade) # chama o construtor da classe base (Pessoa)
     self.matricula = matricula # atributo da classe Aluno (subclasse)
+    self.nota1 = nota1 # atributo da classe Aluno (subclasse)
+    self.nota2 = nota2 # atributo da classe Aluno (subclasse)
 
 
   def falar(self): # metodo da classe Aluno (subclasse) que sobrescreve o metodo da classe base (Pessoa)
