@@ -22,8 +22,9 @@ a2.imprimir_dados() # chama o metodo imprimir_dados() da classe Aluno (subclasse
 
 
 #############################################################################################################################
-print('###########################################')
-
+print('#############################################')
+print("#              PARTE 2                      #")
+print("#############################################")
 # importar a classe cliente (subclasse)
 from cliente import Cliente as C # importa a classe Cliente como C
 
