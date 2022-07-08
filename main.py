@@ -16,3 +16,8 @@ a2 = Aluno("Maria", 21, "54321", 70, 80) # instancia o objeto a2 da classe Aluno
 a1.falar() # chama o metodo falar() da classe Aluno (subclasse)
 a1.imprimir_dados() # chama o metodo imprimir_dados() da classe Aluno (subclasse)
 
+print('__________________________________________________')
+a2.falar() # chama o metodo falar() da classe Aluno (subclasse)
+a2.imprimir_dados() # chama o metodo imprimir_dados() da classe Aluno (subclasse)
+
+
