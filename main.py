@@ -21,3 +21,13 @@ a2.falar() # chama o metodo falar() da classe Aluno (subclasse)
 a2.imprimir_dados() # chama o metodo imprimir_dados() da classe Aluno (subclasse)
 
 
+#############################################################################################################################
+print('###########################################')
+
+# importar a classe cliente (subclasse)
+from cliente import Cliente as C # importa a classe Cliente como C
+
+# instanciar a classe Cliente (subclasse)
+cliente01 = Cliente("nome", idade, "matricula", nota1, nota2)
+
+
