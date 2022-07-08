@@ -28,6 +28,8 @@ print('###########################################')
 from cliente import Cliente as C # importa a classe Cliente como C
 
 # instanciar a classe Cliente (subclasse)
-cliente01 = Cliente("nome", idade, "matricula", nota1, nota2)
+c1 = C("João", 30)
+print(c1.comprar()) # chama o metodo comprar() da classe Cliente (subclasse)
+print(c1.falando()) # chama o metodo falar() da classe Cliente (subclasse)
 
 
