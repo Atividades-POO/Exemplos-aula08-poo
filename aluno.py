@@ -63,11 +63,11 @@ class Aluno(Pessoa01): # herda de Pessoa (classe base) e tem seus atributos e me
 
   # metodo que imprime a media do aluno
   def imprimir_media(self):
-    media = (self.nota1 + self.nota2) / 2
+    media = (self.nota1 + self.nota2) / 2 # calcula a media do aluno
     return f"Sua média é {media}"  # retorna a media do aluno
 
   # metodo que imprime dados do aluno
   def imprimir_dados(self):
-    self.imprimir_matricula()
-    print(self.verificar_aprovacao())
-    print(self.imprimir_media())
+    self.imprimir_matricula() # chama o metodo imprimir_matricula() da classe Aluno (subclasse)
+    print(self.verificar_aprovacao()) # chama o metodo verificar_aprovacao() da classe Aluno (subclasse)
+    print(self.imprimir_media()) # chama o metodo imprimir_media() da classe Aluno (subclasse)
