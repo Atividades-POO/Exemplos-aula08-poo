@@ -6,7 +6,13 @@
 # data: 08/07/2022
 #
 # importar as classes
-from aluno import Aluno # importa a classe Aluno (subclasse)
+from aluno import Aluno
 
 # instanciar a classe Aluno (subclasse)
-a1 = Aluno("Michel Silva", 20, "12345", 10, 10) # instancia o objeto a1 da classe Aluno (subclasse)
+# aluno01 = Aluno("nome", idade, "matricula", nota1, nota2)
+a1 = Aluno("Davi", 20, "12345", 80, 90) # instancia o objeto a1 da classe Aluno (subclasse)
+a2 = Aluno("Maria", 21, "54321", 70, 80) # instancia o objeto a2 da classe Aluno (subclasse)
+
+a1.falar() # chama o metodo falar() da classe Aluno (subclasse)
+a1.imprimir_dados() # chama o metodo imprimir_dados() da classe Aluno (subclasse)
+
