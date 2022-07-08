@@ -11,24 +11,24 @@ class Pessoa01:
     self.nome = nome
     self.idade = idade
 
-    def falar(self):
-      print("Olá, meu nome é " + self.nome)
+  def falar(self):
+    print("Olá, meu nome é " + self.nome)
 
-    # getters
-    @property
-    def nome(self):
-      return self._nome
+  # getters
+  @property
+  def nome(self):
+    return self._nome
 
-    @property
-    def idade(self):
-      return self._idade
+  @property
+  def idade(self):
+    return self._idade
 
 
-    # setters
-    @nome.setter
-    def nome(self, nome):
-      self._nome = nome
+  # setters
+  @nome.setter
+  def nome(self, nome):
+    self._nome = nome
 
-    @idade.setter
-    def idade(self, idade):
-      self._idade = idade
+  @idade.setter
+  def idade(self, idade):
+    self._idade = idade
