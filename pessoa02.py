@@ -12,23 +12,24 @@ class Pessoa02:
     self.idade = idade
     self.nomeClasse = self.__class__.__name__ # nome da classe
 
-    def falar(self):
-      print(f"O objeto {self.nomeClasse}, fala: Olá, meu nome é {self.nome}")
+  def falando(self):
+    return f"O objeto {self.nomeClasse}, fala: Olá, meu nome é {self.nome}"
 
-    # getters
-    @property
-    def nome(self):
-      return self._nome
+  # getters
+  @property
+  def nome(self):
+    return self._nome
 
-    @property
-    def idade(self):
-      return self._idade
+  @property
+  def idade(self):
+    return self._idade
 
-    # setters
-    @nome.setter
-    def nome(self, nome):
-      self._nome = nome
 
-    @idade.setter
-    def idade(self, idade):
-      self._idade = idade
+  # setters
+  @nome.setter
+  def nome(self, valor):
+    self._nome = valor
+
+  @idade.setter
+  def idade(self, valor):
+    self._idade = valor
