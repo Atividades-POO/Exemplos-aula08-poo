@@ -5,7 +5,7 @@
 # Carlos Eduardo
 # data: 08/07/2022
 #
-# classe base pessoa
+# classe base pessoa01
 class Pessoa01:
   def __init__(self, nome, idade):
     self.nome = nome
