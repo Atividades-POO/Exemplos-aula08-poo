@@ -12,4 +12,4 @@ from pessoa02 import Pessoa02 as P2
 class Cliente(P2):
 
   def comprar(self):
-    print(f"O objeto {self.nomeClasse} comprando algo!")
+    return f"O objeto {self.nomeClasse} comprando algo!"
