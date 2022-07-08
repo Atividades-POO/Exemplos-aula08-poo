@@ -6,7 +6,7 @@
 # data: 08/07/2022
 #
 # classe base pessoa
-class Pessoa:
+class Pessoa01:
   def __init__(self, nome, idade):
     self.nome = nome
     self.idade = idade
@@ -22,6 +22,7 @@ class Pessoa:
     @property
     def idade(self):
       return self._idade
+
 
     # setters
     @nome.setter
